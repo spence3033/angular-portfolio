@@ -10,6 +10,9 @@ import { AboutComponent } from './page/body/about/about.component';
 import { ResumeComponent } from './page/body/resume/resume.component';
 import { PortfolioComponent } from './page/body/portfolio/portfolio.component';
 import { ContactComponent } from './page/body/contact/contact.component';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+
+import {MatButtonModule} from '@angular/material/button';
 
 @NgModule({
   declarations: [
@@ -24,7 +27,9 @@ import { ContactComponent } from './page/body/contact/contact.component';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    BrowserAnimationsModule,
+    MatButtonModule
   ],
   providers: [],
   bootstrap: [AppComponent]
