@@ -12,4 +12,8 @@ export class PortfolioComponent implements OnInit {
   ngOnInit(): void {
   }
 
+  goToWebsite(url:string) {
+    window.location.href = url;
+  }
+
 }
