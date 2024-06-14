@@ -8,5 +8,9 @@ To view the hosted portfolio click this link [https://spence3033.github.io/portf
 
 URL paths don't act the way you would expect on Github Pages. You normally get 404 errors when this happens. To fix this follow these 2 steps:
 
-1. In index.html, change <base href="/"> to <base href="/portfolio/"> or whatever the respository name is that is being hosted.
+1. In index.html, change `<base href="/">` to `<base href="/portfolio/">` or whatever the respository name is that is being hosted.
 2. If you reference something from your `/assets` folder, you must use relative paths like `./assets` for the URL to work properly on Github Pages.
+
+## Building Angular Files
+
+Run `ng build` to create the files that can be hosted on Github Pages. The files will appear in a `/dist` folder.
