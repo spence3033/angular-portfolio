@@ -1,27 +1,12 @@
-# AngularPortfolio
+# Angular-Portfolio Summary
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.2.3.
+This respository is the code for my portfolio but the Github Page hosting this website is on another respository [github.com/spence3033/portfolio](https://github.com/spence3033/portfolio).
 
-## Development server
+To view the hosted portfolio click this link [https://spence3033.github.io/portfolio/](https://spence3033.github.io/portfolio/).
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+## Github Pages Development Tips
 
-## Code scaffolding
+URL paths don't act the way you would expect on Github Pages. You normally get 404 errors when this happens. To fix this follow these 2 steps:
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
-
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+1. In index.html, change <base href="/"> to <base href="/portfolio/"> or whatever the respository name is that is being hosted.
+2. If you reference something from your `/assets` folder, you must use relative paths like `./assets` for the URL to work properly on Github Pages.
