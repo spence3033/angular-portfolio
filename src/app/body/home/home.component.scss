@@ -1,0 +1,16 @@
+.buttonContainer{
+  width:15rem;
+  background-color: #9198e5;
+  padding:1rem;
+  border-radius: 6px;
+  &:hover{
+    background-color: #6168f5;
+    cursor:pointer;
+  }
+}
+
+.buttonText{
+  text-align: center;
+  margin:0;
+  font-size:1.2rem;
+}

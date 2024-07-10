@@ -1,11 +1,15 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
-import { HomeComponent } from './page/body/home/home.component';
-import { PortfolioComponent } from './page/body/portfolio/portfolio.component';
+import { HomeComponent } from './body/home/home.component';
+import { PortfolioComponent } from './body/portfolio/portfolio.component';
+import { ContactComponent } from './body/contact/contact.component';
+import { UnfinishedComponent } from './body/unfinished/unfinished.component';
 
 const routes: Routes = [
   { path: '', component: HomeComponent},
-  { path: 'portfolio', component: PortfolioComponent}
+  { path: 'portfolio', component: PortfolioComponent},
+  { path: 'contact', component: ContactComponent},
+  { path: 'unfinished', component: UnfinishedComponent}
 
 ];
 

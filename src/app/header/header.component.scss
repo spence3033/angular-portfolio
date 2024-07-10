@@ -1,15 +1,14 @@
-.linkDiv:hover{
-  cursor: pointer;
-  background-color: #00000002;
-}
 .linkDiv{
   padding:10px;
-  /* max-width: 6rem;
-  max-height: 3rem; */
   text-align: center;
   margin:0px auto;
   font-size: 1.2rem;
   font-weight: 400;
+
+  &:hover{
+    cursor: pointer;
+    background-color: #00000002;
+  }
 }
 .thumb1{
   background: url(/assets/myself.jpg) 50% 50% no-repeat; /* 50% 50% centers image in div */
@@ -17,4 +16,12 @@
   width: 5rem;
   height: 5rem;
   border-radius: 50%;
+}
+.imgLink{
+  width:3rem;
+  height:3rem;
+  &:hover{
+    cursor:pointer;
+    opacity: 0.5;
+  }
 }

@@ -3,27 +3,25 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { PageComponent } from './page/page.component';
-import { HeaderComponent } from './page/header/header.component';
-import { HomeComponent } from './page/body/home/home.component';
-import { AboutComponent } from './page/body/about/about.component';
-import { ResumeComponent } from './page/body/resume/resume.component';
-import { PortfolioComponent } from './page/body/portfolio/portfolio.component';
-import { ContactComponent } from './page/body/contact/contact.component';
+import { HeaderComponent } from './header/header.component';
+import { HomeComponent } from './body/home/home.component';
+import { ResumeComponent } from './body/resume/resume.component';
+import { PortfolioComponent } from './body/portfolio/portfolio.component';
+import { ContactComponent } from './body/contact/contact.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
-import {MatButtonModule} from '@angular/material/button';
+import { MatButtonModule} from '@angular/material/button';
+import { UnfinishedComponent } from './body/unfinished/unfinished.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    PageComponent,
     HeaderComponent,
     HomeComponent,
-    AboutComponent,
     ResumeComponent,
     PortfolioComponent,
-    ContactComponent
+    ContactComponent,
+    UnfinishedComponent
   ],
   imports: [
     BrowserModule,

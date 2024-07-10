@@ -3,24 +3,23 @@
     <p style="font-size:2rem; margin:0px; padding:1rem; display:inline; color:white;">Spencer L. Birch</p>
   </div>
   <div style="text-align: right; padding-right:1rem">
-    <img src="./assets/facebook-logo.webp" alt="" style="width:3rem; height:3rem; margin-right:0.5rem">
-    <img src="./assets/linkedin-logo.svg.png" alt="" style="width:3rem; height:3rem;">
+    <img class="imgLink" src="./assets/facebook-logo.webp" alt="Facebook Logo" style="margin-right:0.5rem" (click)="goToWebsite('https://www.facebook.com/profile.php?id=100004384665986')">
+    <img class="imgLink" src="./assets/linkedin-logo.svg.png" alt="Linkedin Logo" (click)="goToWebsite('https://www.linkedin.com/in/spencer-birch/')">
   </div>
 </div>
 <!-- <div>
   <p style="font-size:36px; margin:0px; padding:36px;">Spencer L. Birch</p>
 </div> -->
-<div style="position:sticky; top:0px; background-color: #9198e5; box-shadow: black 0px -2px 4px 3px; padding:9px 0px; display:grid; grid-template-columns: 1fr 1fr;">
+<div style="position:sticky; top:0px; background-color: #9198e5; box-shadow: black 0px -2px 4px 3px; padding:9px 0px; display:grid; grid-template-columns: 1fr 1fr; padding-right:1rem">
   <div style="padding-left:1rem">
     <div class="thumb1">
       <!-- <img src="/assets/myself.jpg" alt="Professional Image of Myself" style="width:100px; height:100px; object-fit: cover; overflow:hidden; border-radius: 50%;"> -->
     </div>
   </div>
-  <div style="width:50%; margin:0px 0px 0px auto; display:grid; grid-template-columns: 1fr 1fr 1fr; padding:12px 0px;">
+  <div style="margin:0px 0px 0px auto; display:grid; grid-template-columns: auto auto auto; gap:1rem; padding:12px 0px;">
     <button class="linkDiv" mat-raised-button routerLink="/" routerLinkActive="active" color="primary">Home</button>
     <button class="linkDiv" mat-raised-button routerLink="/portfolio" routerLinkActive="active" color="primary">Portfolio</button>
-    <button class="linkDiv" mat-raised-button routerLink="/" routerLinkActive="active" color="primary">Contact</button>
+    <button class="linkDiv" mat-raised-button routerLink="/contact" routerLinkActive="active" color="primary">Contact</button>
   </div>
 
-  <!-- <p>homepage works!</p> -->
 </div>
