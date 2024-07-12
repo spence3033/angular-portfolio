@@ -1,0 +1,8 @@
+.resumeContainer{
+  padding-left:10%;
+}
+.resume{
+  width:100%;
+  border:2px solid black;
+  max-width: 50rem;
+}

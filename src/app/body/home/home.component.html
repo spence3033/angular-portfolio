@@ -1,20 +1,49 @@
-<div>
-  <div style="display:grid; grid-template-columns: 2fr 1fr; width:80%; margin:36px auto 0;">
-    <div>
-      <p style="font-size:2rem; font-weight:500; margin:0px; padding:1rem 0px 0.5rem;">Hello! I'm Spencer,</p>
-      <p style="color:#000080; font-size:1.5rem; margin:0px; padding:1rem 0px 0.5rem;">Bachelor's degree in Computer Science</p>
-      <p style="color:#000080; font-size:1.5rem; margin:0px; padding:0.5rem 0px 0.5rem;">Full Stack Web Developer</p>
-      <p style="color:#000080; font-size:1.5rem; margin:0px; padding:0.5rem 0px 0.5rem;">Data Scientist</p>
-      <p style="color:#000080; font-size:1.5rem; margin:0px; padding:0.5rem 0px 0.5rem;">AI Developer</p>
-      <p style="color:#000080; font-size:1.5rem; margin:0px; padding:0.5rem 0px 1rem;">Team Collaborator</p>
-      <p style="padding-right:1rem; line-height: 2rem;">I am determined to increase my expertise in many different software fields. I have 2 years of experience as a full stack web developer. I've been critiqued by experienced developers, taught new interns, worked solo and in duo with developers on tasks, and written lots of documentation. I have a Bachelor's of Science degree in Computer Science, a Certificate of Machine Learning, and a Minor in Electrical Engineering. I would like to join your software teams and share experience as we advance the fields of Web Development, AI, Data Science, and other software fields.</p>
-    </div>
-    <div>
-      <img src="./assets/myself.jpg" alt="Professional Image of Myself" style="width:100%;">
-    </div>
-    <div class="buttonContainer" (click)="downloadResumePDF()">
-      <h3 class="buttonText">Download Resume PDF</h3>
+<!-- <div style="background-image: linear-gradient(-4deg,  #bcbfe1 38%, #fff 38%)"> -->
+  <div>
+    <div class="homeGrid">
+      <div>
+        <h1 class="title">Hello, I'm Spencer</h1>
+
+        <p class="subTitle">Software Engineer | Full Stack Developer | Data Scientist | AI Developer</p>
+        <p class="subText">Professional Software Engineer since 2022</p>
+        <p class="subText">Bachelor of Science in Computer Science in 2023</p>
+
+        <br>
+        <br>
+
+        <!-- <p style="font-size: 2rem; font-weight: 600; margin: 2rem 0rem 0.5rem;">About Me</p> -->
+        <h2 style="padding-right:1rem; line-height: 2rem;">Professional Background.</h2>
+        <p style="padding-right:1rem; line-height: 2rem;">I was a full stack web developer for AmericaHealth
+          for 2 years. I specialized in building dynamic and responsive web
+          applications using <b class="textBold">Angular</b>, <b class="textBold">PHP</b>,
+          <b class="textBold">Node.js</b>, and <b class="textBold">SQL</b>. I was critiqued by experienced
+          developers, mentored new interns, and worked independently and collectively on tasks with developers.
+          I worked on +35 tasks and saved the company $60,000 a year in their billing department by implementing
+          an interoperability standard called X12 EDI. I'm experienced in assisting code reviews, testing, and
+          documenting to ensure quality products.</p>
+
+        <h2 style="padding-right:1rem; line-height: 2rem;">Skills</h2>
+        <!-- <p style="padding-right:1rem; line-height: 2rem;"> <strong>Technical Skills:</strong> Web Development (Angular, PHP, Node.js, RESTful APIs, SQL, GitHub Pages), Object-Oriented Programming (Python, C++), Embedded Systems (C++), Data Science (Python, PySpark, Pandas, Seaborn, Altair, Polars, DataBricks), Machine Learning (Python, Scikit-Learn, TensorFlow) </p> -->
+        <li style="padding-right:1rem; line-height: 2rem;"> Web Development (<b class="textBold">Angular</b>, <b class="textBold">PHP</b>, <b class="textBold">Node.js</b>, <b class="textBold">RESTful APIs</b>, <b class="textBold">SQL</b>, <b class="textBold">GitHub Pages</b>)</li>
+        <li style="padding-right:1rem; line-height: 2rem;"> Object-Oriented Programming (<b class="textBold">Python</b>, <b class="textBold">C++</b>) </li>
+        <li style="padding-right:1rem; line-height: 2rem;"> Embedded Systems (<b class="textBold">C++</b>) </li>
+        <li style="padding-right:1rem; line-height: 2rem;"> Data Science (<b class="textBold">Python</b>, <b class="textBold">PySpark</b>, <b class="textBold">Pandas</b>, <b class="textBold">Seaborn</b>, <b class="textBold">Altair</b>, <b class="textBold">Polars</b>, <b class="textBold">DataBricks</b>) </li>
+        <li style="padding-right:1rem; line-height: 2rem;"> Machine Learning (<b class="textBold">Python</b>, <b class="textBold">Scikit-Learn</b>, <b class="textBold">TensorFlow</b>) </li>
+
+        <h2 style="padding-right:1rem; line-height: 2rem;">Contact</h2>
+        <p style="padding-right:1rem; line-height: 2rem;">I would like to join your software teams and share experience
+          as we advance the different fields of Web Development, AI, Data Science, embedded software, and other software
+          fields. Contact me by emailing <strong>sbirch3303@gmail.com</strong> or texting <strong>(208) 351-9930</strong>.</p>
+
+      </div>
+
+      <div>
+        <img src="./assets/myself.jpg" alt="Professional Image of Myself" style="width:100%;">
+      </div>
+      <div class="buttonContainer" (click)="downloadResumePDF()">
+        <h3 class="buttonText"> Download Resume PDF</h3>
+      </div>
     </div>
   </div>
-</div>
-<app-resume></app-resume>
+  <app-resume></app-resume>
+<!-- </div> -->
