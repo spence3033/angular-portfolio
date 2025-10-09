@@ -12,6 +12,8 @@
 }
 
 .websiteImageContainer {
+  height: 25rem;
+  overflow-y:hidden;
   &:hover{
     cursor: pointer;
   }
@@ -19,7 +21,9 @@
 
 .websiteImage{
   width:100%;
-  height:same-as-width;
+  // clip: rect(0px,auto,25rem,0px);
+  // max-height: 5rem;
+  // overflow-y:hidden;
   &:hover{
     opacity: 0.9;
   }
