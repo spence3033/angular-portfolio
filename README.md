@@ -1,16 +1,59 @@
-# Angular-Portfolio Summary
+# AngularPortfolio
 
-This respository is the code for my portfolio but the Github Page hosting this website is on another respository [github.com/spence3033/portfolio](https://github.com/spence3033/portfolio).
+This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 21.2.10.
 
-To view the hosted portfolio click this link [https://spence3033.github.io/portfolio/](https://spence3033.github.io/portfolio/).
+## Development server
 
-## Github Pages Development Tips
+To start a local development server, run:
 
-URL paths don't act the way you would expect on Github Pages. You normally get 404 errors when this happens. To fix this follow these 2 steps:
+```bash
+ng serve
+```
 
-1. In index.html, change `<base href="/">` to `<base href="/portfolio/">` or whatever the respository name is that is being hosted.
-2. If you reference something from your `/assets` folder, you must use relative paths like `./assets` for the URL to work properly on Github Pages.
+Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
 
-## Building Angular Files
+## Code scaffolding
 
-Run `ng build` to create the files that can be hosted on Github Pages. The files will appear in a `/dist` folder.
+Angular CLI includes powerful code scaffolding tools. To generate a new component, run:
+
+```bash
+ng generate component component-name
+```
+
+For a complete list of available schematics (such as `components`, `directives`, or `pipes`), run:
+
+```bash
+ng generate --help
+```
+
+## Building
+
+To build the project run:
+
+```bash
+ng build
+```
+
+This will compile your project and store the build artifacts in the `dist/` directory. By default, the production build optimizes your application for performance and speed.
+
+## Running unit tests
+
+To execute unit tests with the [Vitest](https://vitest.dev/) test runner, use the following command:
+
+```bash
+ng test
+```
+
+## Running end-to-end tests
+
+For end-to-end (e2e) testing, run:
+
+```bash
+ng e2e
+```
+
+Angular CLI does not come with an end-to-end testing framework by default. You can choose one that suits your needs.
+
+## Additional Resources
+
+For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.

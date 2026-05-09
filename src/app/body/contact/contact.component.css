@@ -1,9 +1,0 @@
-.contactGrid{
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-}
-.title{
-  font-size: 3rem;
-  font-weight: 600;
-  margin: 0px;
-}
