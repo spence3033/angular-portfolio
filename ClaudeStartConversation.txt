@@ -1,5 +1,5 @@
 Please read my CLAUDE.md to get up to speed on my project:
-https://raw.githubusercontent.com/spence3033/angular-portfolio/refs/heads/rebuild/claude.md
+https://raw.githubusercontent.com/spence3033/angular-portfolio/refs/heads/rebuild/claude.md?v=3
 
 We are rebuilding my portfolio in the latest Angular from scratch.
 Please get familiar with the project and let me know you're ready to continue.

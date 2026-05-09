@@ -5,7 +5,7 @@
   // min-height: 100vh makes the hero take up the full viewport height
   min-height: 100vh;
   text-align: center;
-  padding: 2rem;
+  padding: 6rem 2rem 2rem 2rem; // top padding accounts for fixed nav
 
   // & is a parent selector reference.
   // This way &__content
