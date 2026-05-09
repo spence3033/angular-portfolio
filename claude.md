@@ -53,3 +53,4 @@ The rebuilt portfolio should include these sections:
 - VSCode is connected to GitHub and git is working via terminal
 - Ready to start the rebuild from scratch
 - Next step: Scaffold the new Angular project
+testing
