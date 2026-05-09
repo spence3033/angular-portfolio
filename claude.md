@@ -48,9 +48,13 @@ The rebuilt portfolio should include these sections:
 - When making changes, explain what changed and why
 
 ## Current Status / Where We Left Off
-- Old Angular 15 portfolio exists but we are starting fresh
-- CLAUDE.md file created and pushed to GitHub
-- VSCode is connected to GitHub and git is working via terminal
-- Ready to start the rebuild from scratch
-- Next step: Scaffold the new Angular project
-testing
+- Rebuilt from scratch on the `rebuild` branch (Angular 21)
+- All 5 sections scaffolded with basic styles:
+  - Hero — name, title, tagline, buttons
+  - About — short bio
+  - Skills — languages, frameworks, tools grid
+  - Projects — empty grid, ready for cards
+  - Contact — email, GitHub, LinkedIn links
+- Global styles set up in styles.scss (dark theme, CSS reset)
+- BEM naming convention being used throughout
+- Next step: Build a navigation bar component
