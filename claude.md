@@ -57,4 +57,6 @@ The rebuilt portfolio should include these sections:
   - Contact — email, GitHub, LinkedIn links
 - Global styles set up in styles.scss (dark theme, CSS reset)
 - BEM naming convention being used throughout
-- Next step: Build a navigation bar component
+- Fixed navigation bar added with frosted glass effect
+- Inter font added via Google Fonts
+- Next step: Design pass (colors, spacing, polish) once projects are ready to add
